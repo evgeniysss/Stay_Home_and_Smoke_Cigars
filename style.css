@@ -141,15 +141,31 @@ img {
 }
 
 .item__middle--text {
-    position: absolute;
-    top: 13px;
-    left: 12px;
-
     font-size: 14px;
     font-family: "GothamPro";
     color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 1.375;
+    position: absolute;
+    top: 18px;
+    left: 12px;
+}
+
+.item__middle--text-1 {
+    position: absolute;
+    left: 10px;
+}
+
+.item__middle--text-2 {
+    position: absolute;
+    top: 27px;
+    left: 24px;
+}
+
+.item__middle--text-6 {
+    position: absolute;
+    top: 27px;
+    left: 16px;
 }
 
 .item__bottom {
