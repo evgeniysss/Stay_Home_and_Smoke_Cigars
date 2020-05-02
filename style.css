@@ -63,7 +63,7 @@ img {
 
 .header__link {
     font-size: 12px;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", Sans-Serif;
     color: rgb(0, 0, 0);
     font-weight: bold;
     margin: 0 auto;
@@ -118,15 +118,16 @@ img {
 }
 
 .item__top-discount--text {
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Century Gothic";
     color: rgb(255, 255, 255);
-    font-weight: bold;
+    /* font-weight: bold; */
     line-height: 1.5;
     position: absolute;
-    top: -15px;
-    right: 8px;
+    top: -11px;
+    right: 10px;
     z-index: 99;
+    letter-spacing: 1px;
 }
 
 .item__middle {
@@ -142,7 +143,7 @@ img {
 
 .item__middle--text {
     font-size: 14px;
-    font-family: "GothamPro";
+    font-family: "GothamPro", Sans-Serif;
     color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 1.375;
@@ -211,14 +212,16 @@ img {
 }
 
 .item__price {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Century Gothic";
     color: rgb(239, 239, 239);
-    font-weight: bold;
     line-height: 1;
     position: absolute;
-    top: 9px;
+    top: 7px;
     left: 12px;
+    /* font-weight: bold; */
+    /* font-weight: 500; */
+    letter-spacing: 3px;
 }
 
 .item__price--number {
@@ -229,7 +232,7 @@ img {
     font-size: 14px;
     font-family: "Century Gothic";
     color: rgb(77, 138, 255);
-    font-weight: bold;
+    /* font-weight: bold; */
     line-height: 1;
     position: absolute;
     top: 9px;
@@ -319,9 +322,18 @@ img {
 
 @font-face {
     font-family: "Century Gothic";
-    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
-    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
-    url("./fonts/CenturyGothic.woff") format("woff");
+    src: url("./fonts/CenturyGothic-Bold.eot");
+    src: url("./fonts/CenturyGothic-Bold.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/CenturyGothic-Bold.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
+
+/* @font-face {
+    font-family: "Century Gothic";
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/CenturyGothic-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+} */
