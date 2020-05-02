@@ -42,27 +42,33 @@ img {
 .header__logo {
     display: block;
     margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 .header__text {
     display: block;
     text-align: center;
-    font-size: 30px;
-    line-height: 1;
+    font-size: 50px;
+    font-family: "GothamPro", Sans-Serif;
     color: rgb(0, 0, 0);
-    /* font-size: 62px; */
-    font-size: 25px;
-    font-family: "GothamPro";
-    padding-top: 44px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
     margin: 0 auto;
-    width: 366px;
+}
+
+.padding__bottom {
+    padding-bottom: 12px;
 }
 
 .header__link {
-    font-size: 15px;
-    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-family: "Century Gothic";
     color: rgb(0, 0, 0);
-    line-height: 2.5;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 18;
     text-align: center;
 }
 
@@ -108,6 +114,7 @@ img {
     position: absolute;
     top: -13px;
     right: 5px;
+    z-index: 98;
 }
 
 .item__top-discount--text {
@@ -117,8 +124,9 @@ img {
     font-weight: bold;
     line-height: 1.5;
     position: absolute;
-    top: -13px;
-    right: 5px;
+    top: -15px;
+    right: 8px;
+    z-index: 99;
 }
 
 .item__middle {
@@ -162,6 +170,22 @@ img {
     position: absolute;
     top: -24px;
     left: 15px;
+    z-index: 97;
+}
+
+.item__image--low-4 {
+    position: absolute;
+    top: 6px;
+}
+
+.item__image--low-5 {
+    position: absolute;
+    top: -5px;
+}
+
+.item__image--low-7 {
+    position: absolute;
+    top: -10px;
 }
 
 .item__price {
@@ -261,4 +285,21 @@ img {
 .footer__box--date {
     font-size: 30px;
 }
-  
+
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/GothamProBold/GothamProBold.eot");
+    src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProBold.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/CenturyGothic.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
